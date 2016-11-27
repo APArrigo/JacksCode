@@ -1,18 +1,18 @@
-/*body {*/
-    /*background-color: lightblue;*/
-/*}*/
+body {
+    background-color: lightblue;
+}
 
-/*h3 {*/
-    /*color: white;*/
-    /*text-align: center;*/
-/*}*/
+h3 {
+    color: white;
+    text-align: center;
+}
 
-/*form {*/
-    /*text-align: center;*/
-    /*background-color: green;*/
-/*}*/
+form {
+    text-align: center;
+    background-color: green;
+}
 
-/*input:hover {*/
-    /*background-color: red;*/
-    /*font-size: 40px;*/
-/*}*/
+input:hover {
+    background-color: red;
+    font-size: 40px;
+}

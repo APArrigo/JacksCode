@@ -14,14 +14,14 @@ app.get('/', function (req, res) {
     res.send('Hello World');
 })
 
-// app.get('/indexGet.html', function (req, res) {
-//     res.sendFile( __dirname + "/" + "indexGet.html" );
-// })
-//
-// app.get('/indexPost.html', function (req, res) {
-//     res.sendFile( __dirname + "/" + "indexPost.html" );
-// })
-//
+app.get('/indexGet.html', function (req, res) {
+    res.sendFile( __dirname + "/" + "indexGet.html" );
+})
+
+app.get('/indexPost.html', function (req, res) {
+    res.sendFile( __dirname + "/" + "indexPost.html" );
+})
+
 app.get('/process_get', function (req, res) {
     console.log('process_get()');
     // Prepare output in JSON format

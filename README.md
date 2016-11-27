@@ -1,2 +1,7 @@
+# JacksCode - Server API
+    /process_get
+    /process_post
 # JacksCode
-# JacksCode
+    /indexGet
+    /indexPost
+    /fileUploader
