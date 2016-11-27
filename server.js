@@ -36,6 +36,17 @@ app.get('/process_get', function (req, res) {
     res.end(JSON.stringify(response));
 })
 
+app.post("/post_name", urlencodedParser, function (req, res) {
+    console.log('/post_name');
+    // Prepare output in JSON format
+    var response = {
+        fName:req.body.first_name,
+        lName:req.body.last_name
+    };
+    console.log(response);
+    res.end(JSON.stringify(response));
+})
+
 app.post('/process_post', urlencodedParser, function (req, res) {
     console.log('process_post');
     // Prepare output in JSON format
